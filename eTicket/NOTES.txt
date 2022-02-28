@@ -1,1 +1,26 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
+﻿------------ Configuration Git --------------------------
+echo "# NetCore5Mvc-eTicket" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/BlaiseAddeh/NetCore5Mvc-eTicket.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/BlaiseAddeh/NetCore5Mvc-eTicket.git
+git branch -M main
+git push -u origin main
+
+----------------------------------------------------------
+
+> dotnet add package Microsoft.EntityFrameworkCore --version=5.0.0
+> dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version=5.0.0
+> dotnet add package Microsoft.EntityFrameworkCore.Tools --version=5.0.0
+> dotnet add package Microsoft.EntityFrameworkCore.Design --version=5.0.0
+
+Script de migration
+===================
+dotnet ef migrations add Initial --output-dir "Migrations"
+dotnet ef database update
