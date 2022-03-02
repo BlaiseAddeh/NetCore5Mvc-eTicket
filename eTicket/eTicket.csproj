@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <None Remove="Models\" />
-    <None Remove="Views\Home\" />
     <None Remove="Views\Shared\" />
     <None Remove="Data\" />
     <None Remove="Data\Enums\" />
@@ -14,10 +13,11 @@
     <None Remove="Views\Producers\" />
     <None Remove="Views\Cinemas\" />
     <None Remove="Views\Movies\" />
+    <None Remove="Data\Services\" />
+    <None Remove="Data\Base\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="Views\Home\" />
     <Folder Include="Views\Shared\" />
     <Folder Include="wwwroot\" />
     <Folder Include="Data\" />
@@ -26,6 +26,8 @@
     <Folder Include="Views\Producers\" />
     <Folder Include="Views\Cinemas\" />
     <Folder Include="Views\Movies\" />
+    <Folder Include="Data\Services\" />
+    <Folder Include="Data\Base\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\" />
