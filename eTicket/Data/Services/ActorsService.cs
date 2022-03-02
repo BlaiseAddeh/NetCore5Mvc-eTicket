@@ -17,15 +17,17 @@ namespace eTicket.Data.Services
         }
 
 
+
+
+
+
+        /*
+
         public async Task AddAsync(Actor actor)
         {
             await this._context.Actors.AddAsync(actor);
             await this._context.SaveChangesAsync();
         }
-
-
-
-        /*
 
         public async Task DeleteAsync(int id)
         {
